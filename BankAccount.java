@@ -4,33 +4,49 @@ public class BankAccount{
   * id ’holderId’. Kontot tilldelas ett unikt kontonummer och innehåller
   * inledningsvis 0 kr.
   */
-  BankAccount(String holderName, long holderId);
+  BankAccount(String holderName, long holderId) {
+    
+  }
   
   /**
   * Skapar ett nytt bankkonto med innehavare ’holder’. Kontot tilldelas
   * ett unikt kontonummer och innehåller inledningsvis 0 kr.
   */
   
-  BankAccount(Customer holder);
+  BankAccount(Customer holder){
+    
+  }
   /** Tar reda på kontots innehavare. */
   
-  Customer getHolder();
+  Customer getHolder() {
+    
+  }
   /** Tar reda på det kontonummer som identifierar detta konto. */
   
-  int getAccountNumber();
+  int getAccountNumber(){
+    
+  }
   /** Tar reda på hur mycket pengar som finns på kontot. */
   
-  double getAmount();
+  double getAmount() {
+    
+  }
   /** Sätter in beloppet ’amount’ på kontot. */
   
-  void deposit(double amount);
+  void deposit(double amount) {
+    
+  }
   /**
   * Tar ut beloppet ’amount’ från kontot. Om kontot saknar täckning
   * blir saldot negativt.
   */
   
-  void withdraw(double amount);
+  void withdraw(double amount) {
+    
+  }
   /** Returnerar en strängrepresentation av bankkontot. */
-  String toString();
+  String toString() {
+    
+  }
 
   }
